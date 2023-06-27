@@ -9,6 +9,8 @@ Rails.application.routes.draw do
   get 'movies/create'
   get 'movies/new'
   resources :movies
+  resources :series
+  resources :documentary_films
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
