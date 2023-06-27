@@ -1,0 +1,26 @@
+<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li>
+									<a href="#">Movies</a>
+									<ul>
+										<li><%= link_to 'Listado', movies_index_path %></li>
+										<li><%= link_to 'Ingresa nuevo', movies_new_path %></li>
+									</ul>
+								</li>
+								<li>
+									<a href="#">Series</a>
+									<ul>
+										<li><%= link_to 'Listado', series_index_path %></li>
+										<li><%= link_to 'Ingresa nuevo', series_new_path %></li>
+									</ul>
+								</li><li>
+									<a href="#">Documentary Films</a>
+									<ul>
+										<li><%= link_to 'Listado', documentary_films_index_path %></li>
+										<li><%= link_to 'Ingresa nuevo', documentary_films_new_path %></li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
